@@ -1,3 +1,9 @@
 *.png
-receipts/
+receipts/*
+!receipts/data/
 !a.png
+receipts/*.jpg  
+# ignore all jpg in receipts.
+
+**/*.csv
+# ignore all csv in all subdirectory
